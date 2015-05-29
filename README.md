@@ -1,4 +1,4 @@
-# [Bedrock](https://roots.io/bedrock/)
+# [Leap Bedrock](https://roots.io/bedrock/)
 [![Build Status](https://travis-ci.org/roots/bedrock.svg)](https://travis-ci.org/roots/bedrock)
 
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
@@ -26,7 +26,7 @@ Use [bedrock-ansible](https://github.com/roots/bedrock-ansible) for additional f
 
 ## Installation
 
-1. Clone the git repo - `git clone https://github.com/roots/bedrock.git`
+1. Clone the git repo - `git clone https://github.com/LeapXD/bedrock.git`
 2. Run `composer install`
 3. Copy `.env.example` to `.env` and update environment variables:
   * `DB_NAME` - Database name
