@@ -1,6 +1,8 @@
 # [Leap Bedrock](https://roots.io/bedrock/)
 [![Build Status](https://travis-ci.org/LeapXD/bedrock.svg)](https://travis-ci.org/LeapXD/bedrock)
 
+Just a simple fork from bedrock with some added stuff in the composer file 
+
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
 Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](http://12factor.net/) methodology including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
