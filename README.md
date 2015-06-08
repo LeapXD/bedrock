@@ -6,7 +6,35 @@ Just a simple fork from bedrock with some added stuff in the composer file
 Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
 
 Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](http://12factor.net/) methodology including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
+## Quick start
 
+
+1. Create a new project directory: `$ mkdir example.com && cd example.com`
+2. Clone Leap Bedrock: `$ git clone --depth=1 git@github.com:LeapXD/bedrock.git site && rm -rf site/.git`
+3. Clone Leap Starter Theme: `$ git clone --depth=1 git@github.com:LeapXD/leaptheme.git site/web/app/themes/leaptheme && rm -rf site/web/app/themes/leaptheme/.git`
+4. Follow the instructions for bedrock setup, and the leap theme setup (running composer / npm install etc..)
+
+
+After that your folder structure is complete and you're ready to configure the individual components.
+
+### Bedrock
+
+Bedrock doesn't need any additional configuration by default. There's only one custom option set in this example: `WP_DEFAULT_THEME`.
+
+* In `site/config/application.php` add `define('WP_DEFAULT_THEME', 'sage');`
+
+### Leap/Theme
+
+1. Install Sage's [requirements](https://github.com/roots/sage#requirements)
+2. Add Soil: `$ cd site && composer require roots/soil`
+3. [Configure Sage](https://github.com/roots/sage#theme-development) and customize the theme as usual. At a minimum:
+
+```bash
+$ cd web/app/themes/leaptheme
+$ npm install
+$ bower install
+$ gulp
+```
 ## Features
 
 * Better folder structure
