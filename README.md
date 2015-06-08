@@ -12,9 +12,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 
 1. Create a new project directory: `$ mkdir example.com && cd example.com`
 2. Clone Leap Bedrock: `$ git clone --depth=1 git@github.com:LeapXD/bedrock.git site && cd site && rm -rf .git && mv .env.example .env && composer install`
-3. Clone Leap Starter Theme: `$ git clone --depth=1 git@github.com:LeapXD/leaptheme.git /web/app/themes/leaptheme && rm -rf site/web/app/themes/leaptheme/.git && npm install && bower install`
-4. Follow the instructions for bedrock setup, and the leap theme setup (running composer / npm install etc..)
-
+3. Clone Leap Starter Theme: `$ git clone --depth=1 git@github.com:LeapXD/leaptheme.git web/app/themes/leaptheme && cd web/app/themes/leaptheme && rm -rf .git && npm install && bower install`
 
 After that your folder structure is complete and you're ready to configure the individual components.
 
