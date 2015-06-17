@@ -43,15 +43,20 @@
     "php": ">=5.4",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "~1.0.9",
-    "johnpbloch/wordpress": "~4.2.2",
-    "roots/soil": "3.4.0",
-    "wpackagist-plugin/jetpack": "~3.5",
-    "wpackagist-plugin/super-cpt": "~0.2.1",
-    "wpackagist-plugin/thumbnail-upscale": "~1.0",
-    "wpackagist-plugin/w3-total-cache": "~0.9.4",
-    "wpackagist-plugin/wordpress-seo": "~2.1.1",
-    "wpackagist-plugin/force-regenerate-thumbnails": "~2.0.5",
-    "wpackagist-plugin/ewww-image-optimizer": "~2.4.1"
+    "johnpbloch/wordpress": ">=4",
+    "roots/soil": ">=3.4",
+    "wpackagist-plugin/jetpack": "dev-trunk",
+    "wpackagist-plugin/super-cpt": "dev-trunk",
+    "wpackagist-plugin/thumbnail-upscale": "dev-trunk",
+    "wpackagist-plugin/w3-total-cache": "dev-trunk",
+    "wpackagist-plugin/wordpress-seo": "dev-trunk",
+    "wpackagist-plugin/force-regenerate-thumbnails": "dev-trunk",
+    "wpackagist-plugin/ewww-image-optimizer": "dev-trunk",
+    "wpackagist-plugin/cms-commander-client": "dev-trunk",
+    "wpackagist-plugin/tinymce-advanced": "dev-trunk",
+    "wpackagist-plugin/wp-pagenavi": "dev-trunk",
+    "wpackagist-plugin/search-everything": "trunk"
+
 
   },
   "extra": {
