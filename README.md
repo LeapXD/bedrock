@@ -18,7 +18,7 @@ Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](htt
 >**MAKE SURE YOU HAVE COMPOSER AND NPM INSTALLED AND GLOBALLY AVAILABLE**
 
 1. Create a new project directory: `$ mkdir example.com && cd example.com`
-2. Clone Leap Bedrock: `$ git clone --depth=1 git@github.com:LeapXD/bedrock.git site && cd site && rm -rf .git && mv .env.example .env && composer install`
+2. Clone Leap Bedrock: `$ git clone --depth=1 git@github.com:LeapXD/bedrock.git site && cd site && rm -rf .git && mv .env.example .env && composer update`
 3. Clone Leap Starter Theme: `$ git clone --depth=1 git@github.com:LeapXD/leaptheme.git web/app/themes/leaptheme && cd web/app/themes/leaptheme && rm -rf .git && npm install && bower install && gulp`
 4. Sit back and get some coffee / play ping pong cause if this is being installed on a remote server it'll take a little while to install everything.
 5. change the `devUrl` variable in the `web/app/themes/leaptheme/manifest.json` file to your dev site URL
