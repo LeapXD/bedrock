@@ -1,21 +1,21 @@
 # Application
-public_html/app/plugins/*
-!public_html/app/plugins/.gitkeep
-!public_html/app/plugins/advanced-custom-fields-pro
-!public_html/app/plugins/backupbuddy
-!public_html/app/plugins/gravityforms
-public_html/app/mu-plugins/*
-!public_html/app/mu-plugins/.gitkeep
-public_html/app/upgrade
-public_html/app/uploads/*
-!public_html/app/uploads/.gitkeep
-!public_html/app/mu-plugins/disallow-indexing.php
-!public_html/app/mu-plugins/register-theme-directory.php
-!public_html/app/mu-plugins/bedrock-autoloader.php
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+!web/app/plugins/advanced-custom-fields-pro
+!web/app/plugins/backupbuddy
+!web/app/plugins/gravityforms
+web/app/mu-plugins/*
+!web/app/mu-plugins/.gitkeep
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+!web/app/mu-plugins/disallow-indexing.php
+!web/app/mu-plugins/register-theme-directory.php
+!web/app/mu-plugins/bedrock-autoloader.php
 
 # WordPress
-public_html/wp
-public_html/.htaccess
+web/wp
+web/.htaccess
 
 # WP-CLI
 db-sync
