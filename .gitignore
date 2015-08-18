@@ -7,6 +7,7 @@ web/app/plugins/*
 web/app/mu-plugins/*
 !web/app/mu-plugins/.gitkeep
 web/app/upgrade
+web/app/cache
 web/app/uploads/*
 !web/app/uploads/.gitkeep
 !web/app/mu-plugins/disallow-indexing.php
