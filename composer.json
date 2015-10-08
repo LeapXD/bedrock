@@ -45,7 +45,7 @@
     "vlucas/phpdotenv": "~1.0.9",
     "johnpbloch/wordpress": ">=4",
     "roots/soil": ">=3.4",
-    "wpackagist-plugin/jetpack": "~3.*",
+    "wpackagist-plugin/jetpack": "3.*",
     "wpackagist-plugin/super-cpt": "~0.2.1",
     "wpackagist-plugin/thumbnail-upscale": "1.*",
     "wpackagist-plugin/w3-total-cache": "0.9.4.1",
