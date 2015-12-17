@@ -48,15 +48,15 @@
     "wpackagist-plugin/jetpack": "3.*",
     "wpackagist-plugin/super-cpt": "~0.2.1",
     "wpackagist-plugin/thumbnail-upscale": "1.*",
-    "wpackagist-plugin/w3-total-cache": "0.9.4.1",
-    "wpackagist-plugin/wordpress-seo": "2.*",
+    "wpackagist-plugin/zencache": "151107",
+    "wpackagist-plugin/wordpress-seo": "3.*",
     "wpackagist-plugin/force-regenerate-thumbnails": "2.*",
     "wpackagist-plugin/ewww-image-optimizer": "2.*",
     "wpackagist-plugin/cms-commander-client": "2.*",
     "wpackagist-plugin/tinymce-advanced": "4.*",
     "wpackagist-plugin/wp-pagenavi": "2.*",
-    "wpackagist-plugin/search-everything": "8.1.*",
-    "wpackagist-plugin/easy-wp-smtp": "1.*"
+    "wpackagist-plugin/easy-wp-smtp": "1.*",
+    "wpackagist-plugin/relevanssi": "3.*"
   },
   "extra": {
     "installer-paths": {
