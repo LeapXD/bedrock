@@ -56,7 +56,10 @@
     "wpackagist-plugin/tinymce-advanced": "4.*",
     "wpackagist-plugin/wp-pagenavi": "2.*",
     "wpackagist-plugin/easy-wp-smtp": "1.*",
-    "wpackagist-plugin/relevanssi": "3.*"
+    "wpackagist-plugin/relevanssi": "3.*",
+    "wpackagist-plugin/google-calendar-events": "3.0.*",
+    "wpackagist-plugin/simple-calendar-acf": "1.0.*"
+
   },
   "extra": {
     "installer-paths": {
