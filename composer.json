@@ -40,7 +40,6 @@
     "oscarotero/env": "^1.0",
     "roots/wp-password-bcrypt": "^1.0.0",
     "roots/soil": ">=3.4",
-    "dachcom-digital/acf-yoast-seo-validation":"*",
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/super-cpt": "~0.2.1",
     "wpackagist-plugin/thumbnail-upscale": "1.*",
