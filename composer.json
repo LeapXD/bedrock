@@ -52,8 +52,8 @@
     "wpackagist-plugin/relevanssi": "3.*",
     "wpackagist-plugin/google-calendar-events": "3.*",
     "wpackagist-plugin/simple-calendar-acf": "1.*",
-    "wpackagist-plugin/comet-cache": "*"
-
+    "wpackagist-plugin/comet-cache": "*",
+    "wpackagist-plugin/wp-migrate-db": "*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^2.5.1"
