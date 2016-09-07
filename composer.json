@@ -52,7 +52,8 @@
     "wpackagist-plugin/relevanssi": "3.*",
     "wpackagist-plugin/google-calendar-events": "3.*",
     "wpackagist-plugin/simple-calendar-acf": "1.*",
-    "wpackagist-plugin/comet-cache": "*"
+    "wpackagist-plugin/comet-cache": "*",
+    "wpackagist-plugin/advanced-custom-fields-table-field": "*"
 
   },
   "require-dev": {
