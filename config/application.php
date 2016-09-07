@@ -35,8 +35,13 @@ if (file_exists($env_config)) {
 /**
  * URLs
  */
-define('WP_HOME', env('WP_HOME'));
-define('WP_SITEURL', env('WP_SITEURL'));
+if (env('WP_ENV') == 'production') {
+    define('WP_HOME', env('PROD_WP_HOME') ?: env('WP_HOME'));
+    define('WP_SITEURL', env('PROD_WP_SITEURL') ?: env('WP_SITEURL'));
+} else {
+    define('WP_HOME', env('WP_HOME'));
+    define('WP_SITEURL', env('WP_SITEURL'));
+}
 
 /**
  * Custom Content Directory
@@ -48,12 +53,23 @@ define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
 /**
  * DB settings
  */
-define('DB_NAME', env('DB_NAME'));
-define('DB_USER', env('DB_USER'));
-define('DB_PASSWORD', env('DB_PASSWORD'));
-define('DB_HOST', env('DB_HOST') ?: 'localhost');
-define('DB_CHARSET', 'utf8mb4');
-define('DB_COLLATE', '');
+
+if (env('WP_ENV') == 'production') {
+    define('DB_NAME', env('PROD_DB_NAME') ?: env('DB_NAME'));
+    define('DB_USER', env('PROD_DB_USER') ?: env('DB_USER'));
+    define('DB_PASSWORD', env('PROD_DB_PASS') ?:env('DB_PASSWORD'));
+    define('DB_HOST', env('DB_HOST') ?: 'localhost');
+    define('DB_CHARSET', 'utf8mb4');
+    define('DB_COLLATE', '');
+} else {
+    define('DB_NAME', env('DB_NAME'));
+    define('DB_USER', env('DB_USER'));
+    define('DB_PASSWORD', env('DB_PASSWORD'));
+    define('DB_HOST', env('DB_HOST') ?: 'localhost');
+    define('DB_CHARSET', 'utf8mb4');
+    define('DB_COLLATE', '');
+}
+
 $table_prefix = env('DB_PREFIX') ?: 'wp_';
 
 /**

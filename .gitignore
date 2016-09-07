@@ -4,6 +4,7 @@ web/app/plugins/*
 !web/app/plugins/advanced-custom-fields-pro
 !web/app/plugins/backupbuddy
 !web/app/plugins/gravityforms
+!web/app/plugins/wp-migrate-db-pro
 web/app/mu-plugins/*/
 web/app/upgrade
 web/app/cache
