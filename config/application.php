@@ -90,6 +90,7 @@ define('NONCE_SALT', env('NONCE_SALT'));
 define('AUTOMATIC_UPDATER_DISABLED', false);
 define('DISABLE_WP_CRON', env('DISABLE_WP_CRON') ?: false);
 define('DISALLOW_FILE_EDIT', true);
+define('WP_MEMORY_LIMIT', '128M');
 
 /**
  * Bootstrap WordPress
