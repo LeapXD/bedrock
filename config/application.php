@@ -93,6 +93,13 @@ define('DISALLOW_FILE_EDIT', true);
 define('WP_MEMORY_LIMIT', '128M');
 
 /**
+ * Mailgun settings
+ */
+define('MAILGUN_USEAPI', true);
+define('MAILGUN_APIKEY', 'key-fae041203f6618ee3655bcd940da2e0f');
+define('MAILGUN_DOMAIN', 'mg.leapxd.com');
+
+/**
  * Bootstrap WordPress
  */
 if (!defined('ABSPATH')) {
