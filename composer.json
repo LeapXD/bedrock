@@ -52,7 +52,8 @@
     "wpackagist-plugin/simple-calendar-acf": "*",
     "wpackagist-plugin/comet-cache": "*",
     "wpackagist-plugin/advanced-custom-fields-table-field": "*",
-    "wpackagist-plugin/wp-migrate-db": "*"
+    "wpackagist-plugin/wp-migrate-db": "*",
+    "wpackagist-plugin/optimize-images-resizing": "*"
 
   },
   "require-dev": {
