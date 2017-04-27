@@ -9,6 +9,6 @@ define('DISALLOW_FILE_MODS', false);
 /**
  * Mailgun settings
  */
-define('MAILGUN_USEAPI', true);
-define('MAILGUN_APIKEY', 'key-fae041203f6618ee3655bcd940da2e0f');
-define('MAILGUN_DOMAIN', 'mg.leapxd.com');
+// define('MAILGUN_USEAPI', true);
+// define('MAILGUN_APIKEY', 'key-fae041203f6618ee3655bcd940da2e0f');
+// define('MAILGUN_DOMAIN', 'mg.leapxd.com');
