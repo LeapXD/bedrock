@@ -42,7 +42,7 @@
     "roots/soil": ">=3.4",
     "wpackagist-plugin/jetpack": "*",
     "wpackagist-plugin/super-cpt": "*",
-    "wpackagist-plugin/wordpress-seo": "2.*",
+    "wpackagist-plugin/wordpress-seo": "*",
     "wpackagist-plugin/force-regenerate-thumbnails": "*",
     "wpackagist-plugin/ewww-image-optimizer": "*",
     "wpackagist-plugin/tinymce-advanced": "*",
